@@ -1,0 +1,6 @@
+\! clear : ターミナルクリア
+\l : データベース一覧
+\c database : データベースに接続
+CREATE TABLE name ( elementname SERIAL : 連番で表示/登録(Insertに書かなくていい) PRIMARY KEY, ...);
+\dt : テーブル一覧
+SQL文中 $1 : 引数。 jsでは"~ $1", [id, name, ...]などと引数を渡せる。
